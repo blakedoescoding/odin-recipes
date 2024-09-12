@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(247, 244, 241);
+    font-family: "futura-pt", Times, sans-serif;
+    text-align: center;
+}
+
+/* h1 {
+    text-align: center;
+    font-family: 'futura-pt', Times, serif;
+} */
+
+.links {
+    font-family: 'futura-pt', Times, serif;
+}
+
+.image {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.ingredientlist {
+    text-align: left;
+}
+
+.steplist {
+    text-align: left;
+}
