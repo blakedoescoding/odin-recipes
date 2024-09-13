@@ -1,5 +1,8 @@
 body {
-    background-color: rgb(247, 244, 241);
+    background-color: rgb(253, 247, 247);
+    border: 3px solid black;
+    padding: 10px;
+    margin: auto;
     font-family: "futura-pt", Times, sans-serif;
     text-align: center;
 }
@@ -11,6 +14,28 @@ body {
 
 .links {
     font-family: 'futura-pt', Times, serif;
+}
+
+.links ul{
+    /* removes the bullet points */
+    list-style-type: none;
+}
+
+.links a {
+    /* removes the underline from the links */
+    text-decoration: none;
+}
+
+.linkone, .linktwo, .linkthree{
+    border: 3px solid;
+    border-color: black;
+    /* i think 6px is the margin on bottom/top, auto is the sides */
+    margin: 6px auto;
+    padding: 6px;
+    width: 200px;
+    /* inline-block sets the side by side and not stacked */
+    display: inline-block; 
+    background-color: rgb(225, 231, 231);
 }
 
 .image {
